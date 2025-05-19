@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 2px solid #f08ecf;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: #d9167f;
+  font-size: 24px;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-outline {
+  padding: 10px 20px;
+  border: 2px solid #f44336;
+  color: #f44336;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  background: linear-gradient(to right, #111, #222);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #f44336;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-img img {
+  width: 400px;
+  max-width: 100%;
+}
+
+.services {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.service-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-item img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.service-item div {
+  max-width: 500px;
+  text-align: left;
+}
+
+footer {
+  
+  color: #111;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+main div{
+    background-image: url(./8d77a05aae0b5a86186ed1ee3cd1a093fd90802f\ \(1\).png);
+
+}
+section{
+    justify-content: space-around;
+}
+.service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-item .text {
+  max-width: 600px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.service-item .image img {
+  width: 280px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
